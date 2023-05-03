@@ -1,0 +1,22 @@
+{
+  "name": "client-data",
+  "version": "1.0.0",
+  "description": "a project to develop an information system for educational records",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MSUDenverIT/Client-Data.git"
+  },
+  "keywords": [
+    "SIS"
+  ],
+  "author": "deseray johnson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MSUDenverIT/Client-Data/issues"
+  },
+  "homepage": "https://github.com/MSUDenverIT/Client-Data#readme"
+}
