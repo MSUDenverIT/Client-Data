@@ -1,0 +1,18 @@
+Web Push Certificate Key Pair
+
+BDtsLi_OUz1z7f4Hkrn0HLDB2EZzhd0-Na3Nraa9Exk1q45XbL7E5vTFHdGTz3dyHkU_ynZWPFj8TKS8OtmIeiQ
+
+Private Key
+
+e1RFWctTKHQAcVNnNTyqtaecQf_q4kc_eFlEdVWIc7I
+
+NODE.js
+
+
+var admin = require("firebase-admin");
+
+var serviceAccount = require("path/to/serviceAccountKey.json");
+
+admin.initializeApp({
+  credential: admin.credential.cert(serviceAccount)
+});
